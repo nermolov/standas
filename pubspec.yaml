@@ -14,7 +14,7 @@ dependencies:
   angel_validate: ^2.0.0 # Allows for validation of input data
   path: ^1.6.2
   dart_ping: 
-    path: /home/nik/playground/flutter-projects/dart_ping
+    git: https://github.com/nermolov/dart_ping
 dev_dependencies:
   angel_hot: ^2.0.0 # Hot-reloading support. :)
   angel_test: ^2.0.0 # Utilities for testing Angel servers.
