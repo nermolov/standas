@@ -1,0 +1,11 @@
+<element name="site">
+    <div class="site">
+        <header>{{ site['name'] }}</header>
+        <div class="metric" for-each=site['metrics'] as="metric">
+            <div class="status-line">
+                <div class="title">{{ metric.title }}</div>
+                <div class=['status', metric.color]>{{ metric.value }}</div>
+            </div>
+        </div>
+    </div>
+</element>

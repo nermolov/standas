@@ -1,0 +1,23 @@
+{
+  "name": "nermolov",
+  "sites": [
+    {
+      "name": "Web",
+      "metrics": [
+        {
+          "type": "ping",
+          "address": "nermolov.com"
+        }
+      ]
+    },
+    {
+      "name": "Mail",
+      "metrics": [
+        {
+          "type": "ping",
+          "address": "mail.nermolov.com"
+        }
+      ]
+    }
+  ]
+}

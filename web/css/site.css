@@ -1,0 +1,97 @@
+:root {
+    --font-family: -apple-system,BlinkMacSystemFont,Avenir,"Avenir Next","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    --color-green: #1a9f60;
+    --color-red: #d43939;
+    --color-lightGrey: #E0E0E0;
+    --color-darkGrey: #3f4144;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--color-darkGrey);
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--color-lightGrey);
+}
+
+a:hover:not(.button) {
+    opacity: 0.75;
+}
+
+.nav {
+    margin-top: 10vh;
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 1rem;
+}
+.nav-left,
+.nav-right {
+    display: flex;
+    flex: 1;
+}
+.nav-left {
+    justify-content: flex-start;
+}
+.nav-right {
+    justify-content: flex-end;
+}
+.nav a,
+.nav .brand {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--color-darkGrey);
+}
+.nav .brand {
+    font-size: 1.75em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.site {
+    margin-top: 1rem;
+}
+.site header {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 1rem;
+}
+.metric {
+    padding: 1rem;
+    margin-top: 0.6rem;
+    border: 1px solid var(--color-lightGrey);
+    border-radius: 4px;
+}
+.status-line {
+    display: flex;
+    align-items: stretch;
+}
+.status-line .title, .status-line .status {
+    display: flex;
+    flex: 1;
+}
+.status-line .title {
+    justify-content: flex-start;
+}
+.status-line .status {
+    justify-content: flex-end;
+}
+
+.green {
+    color: var(--color-green);
+}
+.red {
+    color: var(--color-red);
+}
+
+.error {
+    font-size: xx-large;
+}

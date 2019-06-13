@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ config['name'] }}</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/site.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/images/favicon.png">
+</head>
+<body>
+<div class="container">
+    <nav class="nav">
+        <div class="nav-left">
+            <a class="brand" href="#">{{ config['name'] }}</a>
+        </div>
+        <div class="nav-right">
+            <a href="#">Alerts</a>
+        </div>
+    </nav>
+</div>
+<hr />
+<div class="container">
+    <div class="content">
+        <block name="content"></block>
+    </div>
+</div>
+</body>
+</html>
