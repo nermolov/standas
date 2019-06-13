@@ -2,8 +2,11 @@
 
 a status page written in dart
 
+![screenshot](https://github.com/nermolov/standas/raw/master/screenshot.png)
+
 ## usage
 
+* edit config
 * `pub get`
 * `dart bin/prod.dart`
 
