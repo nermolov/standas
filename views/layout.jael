@@ -11,7 +11,7 @@
 <div class="container">
     <nav class="nav">
         <div class="nav-left">
-            <a class="brand" href="#">{{ config['name'] }}</a>
+            <a class="brand" href="/">{{ config['name'] }}</a>
         </div>
         <div class="nav-right">
             <a href="#">Alerts</a>
