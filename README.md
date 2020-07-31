@@ -2,8 +2,6 @@
 
 a status page written in dart
 
-[live demo](https://status.nermolov.com/)
-
 ![screenshot](https://github.com/nermolov/standas/raw/master/screenshot.png)
 
 ## usage
